@@ -23,7 +23,6 @@ public class ClearItemsTask implements Runnable {
     public void stop() {
         // Cancel task
         Bukkit.getScheduler().cancelTask(taskID);
-        Bukkit.getScheduler().cancelTask(taskID);
     }
 
     @Override
