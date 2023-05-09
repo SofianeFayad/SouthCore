@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SouthCore">
+    <output-path>$PROJECT_DIR$/../../OasisLife/plugins</output-path>
+    <root id="archive" name="SouthCore.jar">
+      <element id="module-output" name="SouthCore" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

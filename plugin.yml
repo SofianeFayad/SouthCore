@@ -1,0 +1,10 @@
+name: SouthCore
+main: fr.askip.southcore.SouthCore
+version: 0.0.1
+commands:
+  clearlag:
+    description: Supprime tous les items au sol
+    usage: /clearlag
+  staff:
+    description: Permet de se mettre en mode modération
+    usage: /staff
